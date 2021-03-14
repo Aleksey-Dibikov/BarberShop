@@ -5,43 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BarberShop</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+
 </head>
 <body>
 
-    <header>
+    <header class="bg-dark">
         <nav>
-            <a href="./index.html"><img src="./images/logo/Logo.svg" width="69" height="55" alt="логотип"></a>
-            <ul>
-                <li><a href="">О нас</a></li>
-                <li><a href="">Услуги и цены</a></li>
-                <li><a href="">Мастера</a></li>
-                <li><a href="">Контакты</a></li>
+            <a class="link" href="./index.html"><img src="./images/logo/Logo.svg" width="69" height="55" alt="логотип"></a>
+            <ul class="list nav-list">
+                <li><a class="link" href="">О нас</a></li>
+                <li><a class="link" href="">Услуги и цены</a></li>
+                <li><a class="link" href="">Мастера</a></li>
+                <li><a class="link" href="">Контакты</a></li>
             </ul>
         </nav>
 
-       <a href="tel:+380441111111">+38 044 111 11 11</a>
-       <a href="">Oнлайн-запись</a>
+       <a class="link nav-list" href="tel:+380441111111">+38 044 111 11 11</a>
+       <a class="link button" href="">Oнлайн-запись</a>
     </header>
 
     <main>
 
         <!--section 1-->
-        <section>
-            <p lang="en">A hair salon for men in Kyiv</p>
-            <h1 lang="en">BarberShop</h1>
-            <p>
+        <section class="bg-dark">
+            <p class="title-label" lang="en">A hair salon for men in Kyiv</p>
+            <h1 class="title" lang="en">BarberShop</h1>
+            <p class="page-title">
                 Мы эксперты в модных мужских стрижках.
                 Работаем быстро, осторожно и со вкусом.
             </p>
-            <ul>
-                <li><a href="" target="_blank" rel="noopener noreferrer" lang="en">Instagram</a></li>
-                <li><a href="" target="_blank" rel="noopener noreferrer" lang="en">Youtube</a></li>       
+            <ul class="list">
+                <li><a class="link socials-list" href="" target="_blank" rel="noopener noreferrer" lang="en">Instagram</a></li>
+                <li><a class="link socials-list" href="" target="_blank" rel="noopener noreferrer" lang="en">Youtube</a></li>       
             </ul>
         </section>
 
         <!--section 2-->
         <section>
-            <ul>
+            <ul class="list">
                 <li><img src="./images/photo-section-2/img_1.jpg" width="270" height="445" alt="Барбер в работе"></li>
                 <li><img src="./images/photo-section-2/img_2.jpg" width="270" height="445" alt="Стильная стрижка 2021"></li>
             </ul>
@@ -55,32 +60,32 @@
                     то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной волне". Поэтому, мы всегда
                     готовы усовершенствовать каждого, кто к нам приходит!
                 </p>
-                <button type="button">Онлайн-запись</button>
+                <button class="button" type="button">Онлайн-запись</button>
             </div>            
         </section>
 
         <!--section 3-->
         <section>
-            <p>Проведи время в компании лучших мастеров</p>
+            <p class="title-label">Проведи время в компании лучших мастеров</p>
             <h2>Услуги и цены</h2>
-            <ul>
+            <ul class="list">
                 <li><span>Мужская стрижка</span><span>от 300 грн.</span></li>
                 <li><span>Стрижка бороды</span><span>от 200 грн.</span></li>
                 <li><span>Стрижка усов</span><span>от 200 грн.</span></li>
                 <li><span>Бритье опасной бритвой</span><span>от 200 грн.</span></li>
             </ul>
-            <ul>
+            <ul class="list">
                 <li><span>Cтрижка у стажера</span><span>от 50 грн.</span></li>
                 <li><span>Стрижка под насадку</span><span>от 200 грн.</span></li>
                 <li><span>Детская стрижка (до 12 лет)</span><span>от 300 грн.</span></li>
                 <li><span>Камуфлирование седины</span> <span>от 200 грн.</span></li>
             </ul>
-            <a href="">Онлайн-запись</a>
+            <a class="link" href="">Онлайн-запись</a>
         </section>
 
         <!--section 4-->
         <section>
-            <ul>
+            <ul class="list">
                 <li>
                     <span>600<sup>+</sup></span>
                     <p>Довольных клиентов в день</p>
@@ -107,7 +112,7 @@
         <section>
             <p>Для настоящих ценителей атмосферы</p>
             <h2>Наши мастера</h2>
-            <ul>
+            <ul class="list">
                 <li>
                     <img src="./images/photo-section-5/img1.jpg" width="370" height="346" alt="барбер Джон Смит">
                     <h3 lang="en">John Smith</h3>
@@ -128,9 +133,9 @@
 
         <!--section 6-->
         <section>
-            <h2>Портфолио</h2>
+            <h2 class="visually-hidden">Портфолио</h2>
             <p>На латинском языке “барба” означает “борода”</p>
-            <ul>
+            <ul class="list">
                 <li><img src="./images/photo-section-6/img1.jpg" width="270" height="360" alt=""></li>
                 <li><img src="./images/photo-section-6/img2.jpg" width="270" height="360" alt=""></li>
                 <li><img src="./images/photo-section-6/img3.jpg" width="270" height="360" alt=""></li>
@@ -146,11 +151,11 @@
             <section>
                 <h2>Контакты</h2>
                 <address>
-                    <ul>
-                        <li><a href="https://goo.gl/maps/Fj8WkCAQ75DbeFKK9" target="_blank" rel="noopener noreferrer">
+                    <ul class="list">
+                        <li><a class="link" href="https://goo.gl/maps/Fj8WkCAQ75DbeFKK9" target="_blank" rel="noopener noreferrer">
                             ул. Васильковая, 7А Киев, 08132</a></li>
-                        <li><a href="tel:+380441111111">+38 044 111 11 11</a></li>
-                        <li><a href="mailto:barbershop@email.com">barbershop@email.com</a></li>
+                        <li><a class="link" href="tel:+380441111111">+38 044 111 11 11</a></li>
+                        <li><a class="link" href="mailto:barbershop@email.com">barbershop@email.com</a></li>
                     </ul>                    
                 </address>
                 <section>
@@ -162,10 +167,10 @@
     </main>
 
     <footer>
-        <p>&copy; Copyright 2020</p>
-        <ul>
-            <li><a href="" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-            <li><a href="" target="_blank" rel="noopener noreferrer">Youtube</a></li>
+        <p class="copyright">&copy; Copyright 2020</p>
+        <ul class="list">
+            <li><a class="link socials-list" href="" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            <li><a class="link socials-list" href="" target="_blank" rel="noopener noreferrer">Youtube</a></li>
         </ul>
     </footer>
     
